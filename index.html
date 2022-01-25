@@ -25,6 +25,17 @@
                 </li>
             
         </div>
+
+        <div class="container2">
+            <h1>BONUS</h1>
+            <div class="button" @click="newList">NEW LIST</div>
+            
+            <!--printing list after calling axios-->
+               <li v-for="email in list2">
+                   {{email}}
+               </li>
+
+        </div>
     </div>
 
 

@@ -6,11 +6,33 @@
 body{
     background-color: rgba(59, 175, 109, 0.178);
 }
+#app{
+    display: flex;
+    justify-content: space-between;
+}
+.button{
+    margin:5px auto;
+    width: 140px;
+    height: 38px;
+    line-height: 38px;
+
+    text-align: center;
+    
+    cursor: pointer;
+    border:1px solid rgb(3, 3, 121);
+    background-color: rgba(92, 92, 226, 0.719);
+    color:white;
+    box-shadow: 0 0 2px grey;
+
+}
+.button:hover{
+    background-color: chartreuse;
+}
 h1{
     text-align: center;
 }
-.container{
-    width: 60%;
+.container,.container2{
+    width: 40%;
     margin:30px auto;
     padding:20px;
     border:1px solid black;
