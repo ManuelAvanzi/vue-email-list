@@ -31,6 +31,7 @@
             <div class="button" @click="newList">NEW LIST</div>
             
             <!--printing list after calling axios-->
+            <div v-if="bonues==true" class="box"></div>
                <li v-for="email in list2">
                    {{email}}
                </li>
